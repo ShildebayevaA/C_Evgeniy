@@ -12,7 +12,7 @@ void main()
     int dva = 3*raz;
     int tri = raz+dva;
 	//int total = chock + milk + rice;
-	//cout << "Èòîãî \n";
+	//cout << "ÃˆÃ²Ã®Ã£Ã® \n";
 	cout << "\t"<< raz << "\t" << dva << "\t"<< tri << "\n";
 	//system("pause");
 	#pragma endregion
@@ -31,7 +31,7 @@ void main()
 	int mes_r = 8;
 	int vozr_g = tek_god - god_r;
 	int vozr_m = tek_mes - mes_r;
-	cout << "\t" << "Âàì " << vozr_g << " ëåò è " << vozr_m << " ìåñÿöåâ" << "\n";
+	cout << "\t" << "Ã‚Ã Ã¬ " << vozr_g << " Ã«Ã¥Ã² Ã¨ " << vozr_m << " Ã¬Ã¥Ã±Ã¿Ã¶Ã¥Ã¢" << "\n";
 #pragma endregion
 
 #pragma region task6	// zada4a 6
@@ -53,7 +53,7 @@ void main()
 		cout << "\n";
 #pragma endregion
 
-#pragma region task7   // zada4a 7 - äåéñòâèòåëüíûå ÷èñëà èç çàäà÷è 6
+#pragma region task7   // zada4a 7 - Ã¤Ã¥Ã©Ã±Ã²Ã¢Ã¨Ã²Ã¥Ã«Ã¼Ã­Ã»Ã¥ Ã·Ã¨Ã±Ã«Ã  Ã¨Ã§ Ã§Ã Ã¤Ã Ã·Ã¨ 6
 		float srednee = summa / 2;
 		cout << "\t";
 		printf("%f", srednee);
@@ -96,13 +96,14 @@ void main()
 		// zada4a 14
 
 
-		// zada4a Ýíèÿ
+	
+		// zada4a ÃÃ­Ã¨Ã¿
 		int N, A, B;
-		cout << "Ñêîëüêî ïëàñòèí íåîáõîäèìî îáðàáîòàòü?" << endl;
+		cout << "Ã‘ÃªÃ®Ã«Ã¼ÃªÃ® Ã¯Ã«Ã Ã±Ã²Ã¨Ã­ Ã­Ã¥Ã®Ã¡ÃµÃ®Ã¤Ã¨Ã¬Ã® Ã®Ã¡Ã°Ã Ã¡Ã®Ã²Ã Ã²Ã¼?" << endl;
 		cin >> N;
-	    cout << "ââåäèòå ðàçìåðû ïëàòèí äëèíó è øèðèíó:" << endl;
+	    cout << "Ã¢Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã°Ã Ã§Ã¬Ã¥Ã°Ã» Ã¯Ã«Ã Ã²Ã¨Ã­ Ã¤Ã«Ã¨Ã­Ã³ Ã¨ Ã¸Ã¨Ã°Ã¨Ã­Ã³:" << endl;
 		cin >> A >> B;
 			int Kolvo_ThS = 2 * N*A*B;
-		cout << "\t" << "ïîòðåáóåòñÿ " << Kolvo_ThS << " íàíîãðàìì ñóëüôèäà òîðèÿ"  << "\n";
+		cout << "\t" << "Ã¯Ã®Ã²Ã°Ã¥Ã¡Ã³Ã¥Ã²Ã±Ã¿ " << Kolvo_ThS << " Ã­Ã Ã­Ã®Ã£Ã°Ã Ã¬Ã¬ Ã±Ã³Ã«Ã¼Ã´Ã¨Ã¤Ã  Ã²Ã®Ã°Ã¨Ã¿"  << "\n";
 
 }
