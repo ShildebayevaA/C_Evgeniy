@@ -1,0 +1,89 @@
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+#include <math.h>
+using namespace std;
+char Nom;
+int main()
+{
+	setlocale(LC_ALL, "Rus");
+start:
+	cout << "Введите задание: ";
+	cin >> Nom;
+	if (Nom == 'A')
+	{
+		cout << "Task1 Найти значение функции " << endl;
+		double x, y;
+		y=0;
+		cout << "введите значение х:";
+		cin >> x;
+		y = 3 * pow(x, 6) - 6 * pow(x, 2) - 7;
+		cout << "y = " << y << endl;
+		goto start;
+	}
+	if (Nom == 'B')
+	{
+		cout << "Task2 Найти значение функции" << endl;
+		double x, y;
+		y=0;
+		cout << "введите значение x: " << endl;
+		cin >> x;
+		y = 4 * pow((x - 3), 6) - 7 * pow((x - 3), 3) + 2;
+		cout << "y = " << y << endl;
+		goto start;
+	}
+	if (Nom == 'C')
+	{
+		cout << "Task3 Вывести степени числа А" << endl;
+		double a, B;
+		B =0;
+		cout << "Введите значение числа A: ";
+		cin >> a;
+		B = a * a;
+		cout << a << " ^ 2 = " << B << endl;
+		B = B * B;
+		cout << a << " ^ 4 = " << B << endl;
+		B = B * B;
+		cout << a << " ^ 8 = " << B << endl;
+		goto start;
+	}
+	if (Nom == 'D')
+	{
+		cout << "Task4 Вывести степени числа А" << endl;
+		double a, b, c;
+		b=0;
+		c=0;
+		cout << "Введите значение А: ";
+		cin >> a;
+		c = a*a;
+		cout << a << " ^ 2 = " << c << endl;
+		b = a*c;
+		cout << a << " ^ 3 = " << b << endl;
+		b = b*c;
+		cout << a << " ^ 5 = " << b << endl;
+		c = b * b;
+		cout << a << " ^ 10 = " << c << endl;
+		c = c * b;
+		cout << a << " ^ 15 = " << c << endl;
+		goto start;
+	}
+	if (Nom == 'E')
+	{
+		cout << "Task5 Перевод температур Цельсий <--> Фаренгейт" << endl;
+		float T_f, T_c;
+		T_f=0;
+		T_c=0;
+		cout << "введите температуру в градусах Фаренгейта: " << endl;
+        cin >> T_f;
+		T_c = (T_f - 32) * 5 / 9;
+		cout << "температура в градусах Цельсия: " << T_c << endl;
+		cout << "введите температуру в градусах Цельсия: " << endl;
+        cin >> T_c;
+		T_f = 1.8*T_c + 32;
+		cout << "температура в градусах Фаренгейта: " << T_f << endl;
+		}
+		cout << "Задания завершены  " << endl;
+		system ("pause");
+		return(0);
+}
